@@ -12,7 +12,7 @@ public class ex01_105021009 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		float p=0.5f;
-		float n=1200;
+		float n=1522;
 		float d=0;
 		if (n<=600){
 			d=n*p;
