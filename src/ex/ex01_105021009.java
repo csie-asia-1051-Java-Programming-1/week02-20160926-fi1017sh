@@ -6,13 +6,13 @@ package ex;
  * Date: 2016/09/26
  * Author: 105021009 陳俞儒
  */
-
+import java.util.Scanner;
 public class ex01_105021009 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
 		float p=0.5f;
-		float n=1522;
+		float n=scn.nextInt();
 		float d=0;
 		if (n<=600){
 			d=n*p;
